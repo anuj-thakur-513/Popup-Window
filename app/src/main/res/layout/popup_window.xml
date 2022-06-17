@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="#4169e1"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/textView"
+        android:text="Close" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="This is popup window" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_toRightOf="@+id/textView"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/flower" />
+
+</LinearLayout>
